@@ -14,6 +14,7 @@
 		9AE6FC112B2C7A0A005E8F95 /* TableViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6FC102B2C7A0A005E8F95 /* TableViewDemoTests.swift */; };
 		9AE6FC1B2B2C7A0A005E8F95 /* TableViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6FC1A2B2C7A0A005E8F95 /* TableViewDemoUITests.swift */; };
 		9AE6FC1D2B2C7A0A005E8F95 /* TableViewDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6FC1C2B2C7A0A005E8F95 /* TableViewDemoUITestsLaunchTests.swift */; };
+		9AE6FC2A2B2C875F005E8F95 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6FC292B2C875F005E8F95 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9AE6FC162B2C7A0A005E8F95 /* TableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE6FC1A2B2C7A0A005E8F95 /* TableViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoUITests.swift; sourceTree = "<group>"; };
 		9AE6FC1C2B2C7A0A005E8F95 /* TableViewDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AE6FC292B2C875F005E8F95 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				9AE6FBFF2B2C7A08005E8F95 /* TableViewDemoApp.swift */,
+				9AE6FC292B2C875F005E8F95 /* CustomCell.swift */,
 				9AE6FC012B2C7A08005E8F95 /* ContentView.swift */,
 				9AE6FC032B2C7A0A005E8F95 /* Assets.xcassets */,
 				9AE6FC052B2C7A0A005E8F95 /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE6FC022B2C7A08005E8F95 /* ContentView.swift in Sources */,
+				9AE6FC2A2B2C875F005E8F95 /* CustomCell.swift in Sources */,
 				9AE6FC002B2C7A08005E8F95 /* TableViewDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
